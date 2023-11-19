@@ -1,0 +1,18 @@
+.options{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+.options_title{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.options_options{
+    display: flex;
+    flex-direction: column;
+}
+
+.options_options div{
+    display: flex;
+}

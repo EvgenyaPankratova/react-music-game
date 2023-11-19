@@ -1,0 +1,16 @@
+.start_button_title{
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 1rem;
+}
+
+
+.start_button button{
+    padding: 0.6rem 1.7rem;
+    background-color: rgb(83, 177, 94);
+    border-radius: 0.5rem;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+}

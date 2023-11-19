@@ -1,13 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color:rgb(52, 52, 58);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.container{
+  display: flex;
+  padding: 4rem 28rem;
+  justify-content: space-around;
+}
+
+.picture{
+  position: relative;
+  margin-left: -4rem;
+  width: 296px;
+  height: 293px;
+  border-radius: 50%;
+  -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+-moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.text_info{
+
+
+}
+
+.active{
+  filter: brightness(80%);
+}
+
+@media (min-width: 601px) and (max-width: 1000px){
+  .container{
+    display: flex;
+    padding: 2rem 2rem;
+    justify-content: space-around;
+  }
+}
+@media (max-width: 600px){
+  .container{
+    display: flex;
+    padding: 2rem 2rem;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  
+.picture{
+  position: relative;
+  margin-left: -2rem;
+  width: 196px;
+  height: 193px;
+  border-radius: 50%;
+ 
+}
 }

@@ -1,0 +1,31 @@
+.yellow{
+    height: 290px;
+	-webkit-border-radius: 150px 150px 150px 150px;
+	border-radius: 150px 150px 150px 150px;
+ 
+    background: rgb(244, 244, 144);
+	clip-path: polygon(100% 100%, 100% 50%, 50% 50%, 50% 100%);
+	width: 296px;
+    position: absolute;
+	cursor: pointer;
+}
+
+.yellow:hover{
+	filter: brightness(80%);
+}
+
+.active{
+	filter: brightness(80%);
+}
+
+.not_active{
+	filter: brightness(100%);
+}
+
+@media (max-width: 600px){
+	.yellow{
+		height: 190px;
+		width: 200px;
+	  
+	}
+}

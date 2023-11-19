@@ -1,0 +1,30 @@
+.green{
+    height: 290px;
+	-webkit-border-radius: 150px 150px 150px 150px;
+	border-radius: 150px 150px 150px 150px;
+ 
+    background: rgb(83, 177, 94);
+	clip-path: polygon(50% 0, 100% 0, 100% 50%, 50% 50%);
+	width: 296px;
+    position: absolute;
+	cursor: pointer;
+}
+.green:hover{
+	filter: brightness(80%);
+}
+
+.active{
+	filter: brightness(80%);
+}
+
+.not_active{
+	filter: brightness(100%);
+}
+
+@media (max-width: 600px){
+	.green{
+		height: 190px;
+		width: 200px;
+	  
+	}
+}

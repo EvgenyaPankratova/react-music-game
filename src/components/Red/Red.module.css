@@ -1,0 +1,32 @@
+
+.red{
+    height: 290px;
+	-webkit-border-radius: 150px 150px 150px 150px;
+	border-radius: 150px 150px 150px 150px;
+ 
+    background: rgb(224, 127, 105);
+	clip-path: polygon(0% 50%, 0% 100%, 50% 100%, 50% 50%);
+	width: 300px;
+    position: absolute;
+	cursor: pointer;
+}
+
+.red:hover{
+	filter: brightness(80%);
+}
+
+.active{
+	filter: brightness(80%);
+}
+
+.not_active{
+	filter: brightness(100%);
+}
+
+@media (max-width: 600px){
+	.red{
+		height: 190px;
+		width: 200px;
+	  
+	}
+}
